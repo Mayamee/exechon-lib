@@ -8,6 +8,8 @@ git clone https://github.com/Mayamee/exechon-lib
 # How to use
 You can see the folder named `model`
 
+You also can add a configuration of your mesh in `init()` function
+
 Here is model of mechanism, using `SOLIDWORKS 2020` you can open this model and use it for yourself.
 
 `xoy_inverse` is function that allow you solve inverse kinematics task in one click.
