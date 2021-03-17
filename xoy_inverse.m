@@ -54,6 +54,6 @@ function [Q] = xoy_inverse(P_real,disp)
 	Q4 = SOL(4);
 	Q5 = SOL(5);
 	Q = [Q1 Q2 Q3 Q4 Q5];
-	end
+end
 	
 	

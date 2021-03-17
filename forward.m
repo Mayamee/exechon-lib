@@ -27,7 +27,7 @@ function [P] = forward(Q,disp)
 	x(2)^2+x(3)^2 - x(4)^2;
 	(-x(2)/x(3)) - tan(x(6));
 	(x(1)-xA2)/((x(3)-zA2)*cos(x(6))-(x(2)-yA2)*sin(x(6))) - tan(x(5));
-];
+	];
 	SOL = fsolve(f1,x0,opts);
     xe=SOL(1);ye=SOL(2);ze=SOL(3);
     k2=SOL(4);k3=SOL(5);alf=SOL(6);
@@ -42,20 +42,20 @@ function [P] = forward(Q,disp)
     sin(q4) cos(q4) 0 0;
     0 0 1 L1;
     0 0 0 1;
-];
-A_First_Second = [
+	];
+	A_First_Second = [
 	1 0 0 0;
 	0 cos(q5) -sin(q5) 0;
 	0 sin(q5) cos(q5) 0;
 	0 0 0 1;
 	];
-E_out = [0;L2;0;1;];
+	E_out = [0;L2;0;1;];
 	Ae = [
 		1 0 0 E_out(1);
 		0 1 0 E_out(2);
 		0 0 1 E_out(3);
 		0 0 0 1;
-];
+	];
 	T_out = T_pl * A_EndEff_FIRST * A_First_Second * Ae;
     P = T_out(1:3,4);
     F = T_out(1:2,2);F=[F;1];
