@@ -11,6 +11,7 @@ You can see the folder named `model`
 Here is model of mechanism, using `SOLIDWORKS 2020` you can open this model and use it for yourself.
 
 `xoy_inverse` is function that allow you solve inverse kinematics task in one click.
+
 `forward` allows solving the forward kinematics task.
 
 Syntax you can see in `example file`.
