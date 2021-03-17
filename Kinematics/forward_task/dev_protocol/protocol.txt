@@ -1,0 +1,28 @@
+@@@@@@@@@@@@@@@@@@@@@construct@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+xi = {xe ye ze k1 k2 k3 alf}
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+k1 - xe;
+-k2*sin(alf) - ye;
+k2*cos(alf) - ze;
+(k1-d_B1B3*0.5*cos(k3))^2+(k2+d_B1B3*0.5*sin(k3))^2 - q1^2;
+(A1A3-(k1+d_B1B3*0.5*cos(k3)))^2+(k2-d_B1B3*0.5*sin(k3))^2 - q3^2;
+atan(-ye/ze) - alf;
+(k1-xA2)^2+k2^2+de^2+yA2^2+zA2^2+2*(k2*yA2-de*zA2)*sin(alf)-2*(de*yA2+k2*zA2)*cos(alf) - q2^2;
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(xA1 - (xe-d_B1B3*cos(k3)/2))^2 + (yA1 - (ye-d_B1B3*sin(alf)*sin(k3)/2))^2 + (zA1 - (ze+d_B1B3*cos(alf)*sin(k3)/2))^2 - q1^2;
+(yA2 - (xe))^2 + (yA2 - (ye+de*cos(alf)))^2 + (zA2 - (ze+de*sin(alf)))^2 - q2^2;
+(xA3 - (xe+d_B1B3*cos(k3)/2))^2 + (yA3 - (ye+d_B1B3*sin(alf)*sin(k3)/2))^2 + (zA3 - (ze-d_B1B3*cos(alf)*sin(k3)/2))^2 - q3^2;
+ye^2+ze^2 - k2^2;
+(-ye/ze) - tan(alf);
+(xe-xA2)/((ze-zA2)*cos(alf)-(ye-yA2)*sin(alf)) - tan(k3);
+@@@@@@@@@@@@HYB@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(k1-d_B1B3*0.5*cos(k3))^2+(k2+d_B1B3*0.5*sin(k3))^2 - q1^2;
+(k1-xA2)^2+k2^2+de^2+yA2^2+zA2^2+2*(k2*yA2-de*zA2)*sin(alf)-2*(de*yA2+k2*zA2)*cos(alf) - q2^2;
+(A1A3-(k1+d_B1B3*0.5*cos(k3)))^2+(k2-d_B1B3*0.5*sin(k3))^2 - q3^2;
+(-ye/ze) - tan(alf);
+k1 - xe;
+-k2*sin(alf) - ye;
+k2*cos(alf) - ze;
+
+
+% atan(-ye/ze) - alf;

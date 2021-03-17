@@ -1,0 +1,7 @@
+(k1-d_B1B3*0.5*cos(k3))^2+(k2+d_B1B3*0.5*sin(k3))^2 - q1^2;
+(k1-xA2)^2+k2^2+de^2+yA2^2+zA2^2+2*(k2*yA2-de*zA2)*sin(alf)-2*(de*yA2+k2*zA2)*cos(alf) - q2^2;
+(A1A3-(k1+d_B1B3*0.5*cos(k3)))^2+(k2-d_B1B3*0.5*sin(k3))^2 - q3^2;
+(-ye/ze) - tan(alf);
+k1 - xe;
+-k2*sin(alf) - ye;
+k2*cos(alf) - ze;
